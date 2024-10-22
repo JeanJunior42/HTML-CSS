@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body{
+    background-color: rgb(127, 255, 165);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;   
+}
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    text-indent: 1.5em;
+    padding: 2px 12px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(52, 161, 52), rgb(8, 99, 8));
+    color: white;
+    margin: 0px;
+    padding-top: 3px;
+    text-align: center;
+}
+
+header > nav{
+    text-align: left;
+    margin: 5px;
+    padding: 3px;
+}
+
+div{
+    display: inline-block;
+    margin: 3px;
+}
+
+main{
+background-color: white;
+margin: 40px;
+padding: 5px 15px;
+text-align: justify;
+border-radius: 12px;
+box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.393);
+h2{
+    background-color: rgba(127, 255, 212, 0.349);
+    font-family: "idroid";
+    color: rgb(17, 167, 0);
+}
+h1{
+    font-family: "idroid";
+    color: rgb(17, 167, 0);
+}
+} 
+
+#extra{
+    background-color: rgba(102, 200, 141, 0.652);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.293);
+    margin: 5px;
+    border-radius: 12px;
+    h3{
+        background-color: rgba(0, 110, 22, 0.516);
+        margin: 0;
+        padding: 5px 7px;
+        border-radius: 12px 12px 0px 0px;
+        color: white;
+    }
+}
+
+.lista{
+    display: inline-block;
+}
+#primeira{
+    text-align: left;
+}
+#segunda{
+    margin-left: 100px;
+}
+
+footer{
+margin: 0px;
+text-align: center;
+font: bolder 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: rgb(0, 76, 0);
+padding: 1px;
+}
+
+picture{
+    margin: auto;
+    display: flex;
+}
+img{
+    margin: auto;
+    display: flex;
+}
